@@ -1,0 +1,13 @@
+<div class="header">
+  <img src="{{ site.author.photo | relative_url }}" alt="{{ site.author.name }}" class="photo">
+  <div>
+    <h1>{{ site.author.name }}</h1>
+    <div class="contact">
+      {{ site.author.department }}, {{ site.author.affiliation }}<br>
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      &nbsp;|&nbsp; <a href="{{ site.author.cv | relative_url }}">CV</a>
+      &nbsp;|&nbsp; <a href="{{ site.author.scholar }}">Google Scholar</a>
+      &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/">LinkedIn</a>
+    </div>
+  </div>
+</div>

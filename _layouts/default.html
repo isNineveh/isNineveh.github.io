@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.author.name }}</title>
+  <meta name="description" content="{{ site.author.name }}, {{ site.description }}.">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="nav-name">{{ site.author.name }}</a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>About</a>
+      <a href="{{ '/Chengcheng_CV.pdf' | relative_url }}">CV</a>
+      <a href="{{ '/personal' | relative_url }}" {% if page.url contains 'personal' %}class="active"{% endif %}>Personal</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+{{ content }}
+</main>
+
+<footer>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} · Last updated {{ site.time | date: '%B %Y' }}</footer>
+
+</body>
+</html>

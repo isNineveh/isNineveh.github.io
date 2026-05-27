@@ -1,0 +1,32 @@
+working:
+  - num: 1
+    authors: "<strong>Chengcheng Xu</strong>, Alvin Chung Man Leung, Heshan Sun, and Xiabing Zheng"
+    title: "Harnessing Regulatory Fit in Robo-Advisory Services: A Pathway to Mitigate Investors' Behavioral Biases"
+    status: "Under Review — Information Systems Research"
+
+  - num: 2
+    authors: "<strong>Chengcheng Xu</strong>, Chaoyue Gao, Alvin Chung Man Leung, Yulin Fang, and Xiabing Zheng"
+    title: "Beyond Delegation: Spillover Effects of Robo-Advisors on Investor Risk-Taking"
+
+proceedings:
+  - num: 1
+    authors: "Xu, C., Leung, A., & Zheng, X. (2024)"
+    title: "Harnessing Regulatory Fit in Robo-Advisory Services: A Pathway to Mitigate Investors' Behavioral Biases"
+    venue: "ICIS 2024 · 45th International Conference on Information Systems"
+
+presentations:
+  - num: 1
+    title: "Beyond Delegation: Spillover Effects of Robo-Advisors on Investor Risk-Taking"
+    venues:
+      - "22nd SCECR, Tokyo, Japan (June 2026)"
+      - "CityU Summer Workshop on IS, Hong Kong (June 2026)"
+      - "19th CSWIM, Haikou, China (June 2026)"
+      - "2nd BizAI, Dallas, TX, USA (March 2026)"
+
+  - num: 2
+    title: "Harnessing Regulatory Fit in Robo-Advisory Services"
+    venues:
+      - "CityU Summer Workshop on IS, Hong Kong (June 2025)"
+      - "45th ICIS, Bangkok, Thailand (Dec 2024)"
+      - "USTC-CUHKSZ Joint Summer Workshop, Hefei, China (July 2024)"
+      - "HKBU Summer Workshop on IS, Hong Kong (June 2024)"

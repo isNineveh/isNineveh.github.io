@@ -1,0 +1,20 @@
+title: Chengcheng Xu
+description: Ph.D. Candidate in Information Systems
+url: "https://isnineveh.github.io"
+baseurl: ""
+
+# Personal info — edit these, the rest auto-populates
+author:
+  name: Chengcheng Xu
+  email: chengcheng.xu@my.cityu.edu.hk
+  affiliation: City University of Hong Kong
+  department: Department of Information Systems
+  visiting: McCombs School of Business, UT Austin
+  photo: photo.jpg        # put your photo in root directory
+  cv: Chengcheng_CV.pdf   # put your CV in root directory
+  scholar: "https://scholar.google.com/"  # replace with your link
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [Gemfile, Gemfile.lock, README.md, vendor]

@@ -1,0 +1,25 @@
+- role: Tutorial Instructor
+  institution: City University of Hong Kong
+  courses:
+    - name: "IS5413: Database Management"
+      semester: Spring 2025
+
+- role: Teaching Assistant
+  institution: City University of Hong Kong
+  courses:
+    - name: "IS5413: Database Management"
+      semester: Spring 2025
+    - name: "IS5313: Foundations of IS & E-Business"
+      semester: Fall 2024, Fall 2025
+    - name: "EC5001: Introduction to eCommerce"
+      semester: Fall 2025
+    - name: "IS2505: E-Business"
+      semester: Spring 2024
+
+- role: Teaching Assistant
+  institution: University of Science and Technology of China
+  courses:
+    - name: "Operations Management (IMBA)"
+      semester: Fall 2021
+    - name: "Business Research Method (IMBA)"
+      semester: Fall 2021
